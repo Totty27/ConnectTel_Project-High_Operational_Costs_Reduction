@@ -16,6 +16,9 @@ The objectives for this project is to analyse the given data and prepare a short
 
 ## Data Sources
 
+- The dataset for this project was provided in an Excel spreadsheet:
+    - [Dataset]
+
 
 ## Analysis Tools
 
