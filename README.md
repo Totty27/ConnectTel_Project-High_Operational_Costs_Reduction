@@ -16,13 +16,17 @@ The objectives for this project is to analyse the given data and prepare a short
 
 ## Data Sources
 
-- The dataset for this project was provided in an Excel spreadsheet:
-    - [Dataset]
-
+- The dataset for this project was provided in an Excel  spreadsheet(ConnectTel_CallCenterDataset.xlsx):
+    - [Dataset](ConnectTel_CallCenterDataset.xlsx)
 
 ## Analysis Tools
 
+- Microsoft Excel
+- Visual Paradigm
+
+
 ## Data Cleaning or Preparation
+
 
 ## Exploratory Data Analysis
 
