@@ -1,5 +1,17 @@
 # ConnectTel_Project-High_Operational_Costs_Reduction
 
+## Table Of Contents
+- [Company or Project Overview](#company-or-project-overview)
+- [Project Objectives](#project-objectives)
+- [Data Sources](#data-sources)
+- [Analysis Tools](#analysis-tools)
+- [Data Cleaning or Preparation](#data-cleaning-or-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results or Findings](#results-or-findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+  
 ## Company or Project Overview
 
 ConnectTel is one of the top telecom provider in South Africa. The company is currently facing high operational costs in its customer call centre department. The management suspects that this could be caused by the inefficiencies in how calls are handled and how teams are managed.
@@ -56,7 +68,7 @@ Purpose: Calculate the average value of key metrics.
 - Average Cost per Call
 - Average CSAT Score
   
-### Example:
+##### Example:
   
  ``` Excel
 =AVERAGE(E2:E500)
@@ -69,7 +81,7 @@ Purpose: Calculate total values.
 - Total Calls Handled
 - Purpose: Calculate total values.
 
-### Example:
+##### Example:
   
 ``` Excel
 =SUM(D2:D500)
@@ -82,7 +94,7 @@ Purpose: Sum values based on a condition.
 - Total Calls Handled per team
 - Total Overtime per team
   
-### Example:
+##### Example:
 
 ``` Excel
 =SUMIF(A:A,"Team B",I:I)
@@ -96,7 +108,7 @@ Purpose: Sum values based on a condition.
 - Highest Cost per Call
 - Highest Overtime Hours
 
-### Example:
+##### Example:
 
   ``` Excel
 =MAX(J2:J500)
@@ -110,11 +122,13 @@ Purpose: Sum values based on a condition.
 - Average Call Duration per day
 - Average Cost for agents with overtime
 
-### Example:
+##### Example:
 
 ``` Excel
 =AVERAGEIF(A:A,"Team A",J:J)
 ```
+
+
 ## Results or Findings
 
 1. Long Average Call Duration
@@ -122,7 +136,7 @@ Purpose: Sum values based on a condition.
 - There is a strong positive relationship between call duration and cost per call.
 - Longer calls mean agents spend more time per customer, increasing operational costs.
   
-### Conclusion:
+##### Conclusion:
 Long call handling time is one of the main drivers of high cost per call.
 
 2. Overtime Hours Increase Costs
@@ -130,28 +144,28 @@ Long call handling time is one of the main drivers of high cost per call.
 - Some agents work up to 3 hours of overtime.
 - Overtime typically involves higher wage rates, increasing the cost of each handled call.
   
-### Conclusion:
+##### Conclusion:
 High overtime usage is another major contributor to the rising call costs.
 
 3. Escalation Rate Impact
 - The average escalation rate is about 11%.
 - When calls are escalated to supervisors or higher-level support, they increase call duration and resource use.
   
-### Conclusion:
+##### Conclusion:
 Escalations indirectly increase operational costs.
 
 4. First Call Resolution (FCR) Opportunities
 - Higher FCR rates reduce repeat calls, but the data suggests room for improvement.
 - When issues are not resolved on the first call, customers may call again, increasing total cost.
   
-### Conclusion:
+##### Conclusion:
 Lower FCR can increase the total volume of calls and operational costs.
 
 5. Workload Distribution
 - Calls handled vary significantly across agents.
 - Some agents handle fewer calls but spend more time on them.
   
-### Conclusion:
+##### Conclusion:
 Possible differences in agent efficiency or experience.
 
 ## Recommendations
@@ -161,28 +175,28 @@ Possible differences in agent efficiency or experience.
 - Implement call scripts or knowledge bases to resolve issues faster.
 - Use AI or automated responses for simple queries.
   
-### Impact:
+##### Impact:
 Shorter calls will directly reduce cost per call.
 
 2. Minimize Overtime Usage
 •	Improve workforce planning and scheduling.
 •	Adjust staffing levels during peak call periods.
 
-### Impact:
+##### Impact:
 Reduced overtime will lower labour costs.
 
 4. Improve First Call Resolution (FCR)
 - Provide agents with better problem-solving tools and system access.
 - Improve training on complex customer issues.
 
-### Impact:
+##### Impact:
 Higher FCR reduces repeat calls and operational load.
 
 5. Reduce Escalations
 - Train agents to resolve more issues independently.
 - Improve knowledge documentation and troubleshooting guides.
 
-### Impact:
+##### Impact:
 Fewer escalations will reduce call handling time and resource usage.
 
 6. Monitor Agent Performance
@@ -193,7 +207,7 @@ This can be done by paying attention to the following metrics:
 - FCR rate
 - Identify top-performing agents and replicate their practices.
   
-### Impact:
+##### Impact:
 Improves overall team efficiency and productivity.
 
 ## Limitations
