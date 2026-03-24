@@ -12,13 +12,13 @@
 - [Recommendations](#recommendations)
 - [Limitations](#limitations)
   
-## Company or Project Overview
+## 1. Company or Project Overview
 
 ConnectTel is one of the top telecom provider in South Africa. The company is currently facing high operational costs in its customer call centre department. The management suspects that this could be caused by the inefficiencies in how calls are handled and how teams are managed.
 
 The company have hired me as a Business Analyst to conduct a diagnostic to uncover opportunities to reduce costs without hurting the customer experience.
 
-## Project Objectives
+#### 1.1. Project Objectives
 
 The objectives for this project is to analyse the given data and prepare a short client-ready presentation that serve the following:
 
@@ -26,18 +26,18 @@ The objectives for this project is to analyse the given data and prepare a short
 - Suggests potential improvements with impact estimates.
 - Present practical, data-backed recommendations and limitations.
 
-## Data Sources
+## 2. Data Sources
 
 - The dataset for this project was provided in an Excel  spreadsheet(ConnectTel_CallCenterDataset.xlsx):
     - [Dataset](ConnectTel_CallCenterDataset.xlsx)
 
-## Analysis Tools
+## 3. Analysis Tools
 
 - Microsoft Excel
 - Visual Paradigm
 
 
-## Data Cleaning or Preparation
+## 4. Data Cleaning or Preparation
 
 After downloading and opening the dataset, my first step was cleaning it by performing the following general data cleaning and inspecting activities:
 
@@ -48,7 +48,7 @@ After downloading and opening the dataset, my first step was cleaning it by perf
 - Then finally, I used data formatting to add 2 decimal places for every numeric/ integer value in the dataset, and to remove extra spaces.
 
 
-## Exploratory Data Analysis
+## 5. Exploratory Data Analysis
 
 After assuring that the call centre data clean and is ready for analysis, I started exploring the data to answer the following key questions:
 
@@ -56,10 +56,10 @@ After assuring that the call centre data clean and is ready for analysis, I star
 - What key questions should we answer using the data?
 - What part of the data will help us conduct an effective analysis?
 
-## Data Analysis
+## 6. Data Analysis
 To perform my data analysis, I applied the following functions: 
 
-1. AVERAGE()
+### 6.1. AVERAGE()
    
 Purpose: Calculate the average value of key metrics.
 
@@ -74,7 +74,7 @@ Purpose: Calculate the average value of key metrics.
 =AVERAGE(E2:E500)
 ```
 
-2. SUM()
+### 6.2. SUM()
    
 Purpose: Calculate total values.
 
@@ -87,7 +87,7 @@ Purpose: Calculate total values.
 =SUM(D2:D500)
 ```
 
-3. SUMIF()
+### 6.3. SUMIF()
    
 Purpose: Sum values based on a condition.
 
@@ -100,7 +100,7 @@ Purpose: Sum values based on a condition.
 =SUMIF(A:A,"Team B",I:I)
 ```
 
-4. MAX()
+### 6.4. MAX()
    
    Purpose: Identify the highest values.
 
@@ -114,7 +114,7 @@ Purpose: Sum values based on a condition.
 =MAX(J2:J500)
 ```
 
-5. AVERAGEIF()
+### 6.5. AVERAGEIF()
    
    Purpose: Calculate averages based on specific conditions.
 
@@ -129,9 +129,9 @@ Purpose: Sum values based on a condition.
 ```
 
 
-## Results or Findings
+## 7. Results or Findings
 
-1. Long Average Call Duration
+### 7.1. Long Average Call Duration
 - The average call duration is about 6.5 minutes, with some calls exceeding 10 minutes.
 - There is a strong positive relationship between call duration and cost per call.
 - Longer calls mean agents spend more time per customer, increasing operational costs.
@@ -139,7 +139,7 @@ Purpose: Sum values based on a condition.
 ##### Conclusion:
 Long call handling time is one of the main drivers of high cost per call.
 
-2. Overtime Hours Increase Costs
+### 7.2. Overtime Hours Increase Costs
 - Overtime hours show a strong relationship with higher call costs.
 - Some agents work up to 3 hours of overtime.
 - Overtime typically involves higher wage rates, increasing the cost of each handled call.
@@ -147,30 +147,30 @@ Long call handling time is one of the main drivers of high cost per call.
 ##### Conclusion:
 High overtime usage is another major contributor to the rising call costs.
 
-3. Escalation Rate Impact
+### 7.3. Escalation Rate Impact
 - The average escalation rate is about 11%.
 - When calls are escalated to supervisors or higher-level support, they increase call duration and resource use.
   
 ##### Conclusion:
 Escalations indirectly increase operational costs.
 
-4. First Call Resolution (FCR) Opportunities
+### 7.4. First Call Resolution (FCR) Opportunities
 - Higher FCR rates reduce repeat calls, but the data suggests room for improvement.
 - When issues are not resolved on the first call, customers may call again, increasing total cost.
   
 ##### Conclusion:
 Lower FCR can increase the total volume of calls and operational costs.
 
-5. Workload Distribution
+### 7.5. Workload Distribution
 - Calls handled vary significantly across agents.
 - Some agents handle fewer calls but spend more time on them.
   
 ##### Conclusion:
 Possible differences in agent efficiency or experience.
 
-## Recommendations
+## 8. Recommendations
 
-1. Reduce Average Call Duration
+### 8.1. Reduce Average Call Duration
 - Provide better training for agents on efficient call handling.
 - Implement call scripts or knowledge bases to resolve issues faster.
 - Use AI or automated responses for simple queries.
@@ -178,28 +178,28 @@ Possible differences in agent efficiency or experience.
 ##### Impact:
 Shorter calls will directly reduce cost per call.
 
-2. Minimize Overtime Usage
+### 8.2. Minimize Overtime Usage
 •	Improve workforce planning and scheduling.
 •	Adjust staffing levels during peak call periods.
 
 ##### Impact:
 Reduced overtime will lower labour costs.
 
-4. Improve First Call Resolution (FCR)
+### 8.3. Improve First Call Resolution (FCR)
 - Provide agents with better problem-solving tools and system access.
 - Improve training on complex customer issues.
 
 ##### Impact:
 Higher FCR reduces repeat calls and operational load.
 
-5. Reduce Escalations
+### 8.4. Reduce Escalations
 - Train agents to resolve more issues independently.
 - Improve knowledge documentation and troubleshooting guides.
 
 ##### Impact:
 Fewer escalations will reduce call handling time and resource usage.
 
-6. Monitor Agent Performance
+### 8.5. Monitor Agent Performance
 This can be done by paying attention to the following metrics:
 - Calls handled
 - Average call duration
@@ -210,18 +210,18 @@ This can be done by paying attention to the following metrics:
 ##### Impact:
 Improves overall team efficiency and productivity.
 
-## Limitations
+## 9. Limitations
 
-1. Limited Time Scope
+### 9.1. Limited Time Scope
 - The dataset represents a specific period of operations.
 - Seasonal or long-term trends may not be captured.
   
-2. Missing Operational Context
+### 9.2. Missing Operational Context
 The dataset does not include:
 - Type of customer issues or call complexity
 - As these factors may influence call duration and costs.
   
-3. Agent Skill Differences
+### 9.3. Agent Skill Differences
 - The analysis assumes agents perform similarly.
 - Differences in experience, training, or specialization may affect results.
 
